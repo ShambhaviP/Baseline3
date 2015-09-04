@@ -25,4 +25,8 @@ public class Item {
             return 0.1 * itemPrice;
         }
     }
+
+    public double importDutyApplicable() {
+        return 0.0;
+    }
 }
