@@ -18,6 +18,9 @@ public class Item {
         else if(itemName.equalsIgnoreCase("headache pills")) {
             return 0.0;
         }
+        else if(itemName.equalsIgnoreCase("book")) {
+            return 0.0;
+        }
         else {
             return 0.1 * itemPrice;
         }
