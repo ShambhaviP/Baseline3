@@ -1,4 +1,4 @@
-//Instantiates item objects with their names and prices and calculates the sales tax and import duty as applicable
+//Instantiates item objects with their names,prices,quantities and calculates the sales tax and import duty as applicable
 package com.tw.baseline;
 
 public class Item {

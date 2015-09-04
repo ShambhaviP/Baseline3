@@ -1,6 +1,5 @@
 package com.tw.baseline;
 
-import junit.framework.Assert;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
