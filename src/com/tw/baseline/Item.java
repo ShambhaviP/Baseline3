@@ -36,4 +36,8 @@ public class Item {
         return 0.0;
         }
     }
+
+    public double netPricePerItem() {
+        return itemPrice + basicSalesTax() + importDutyApplicable();
+    }
 }
