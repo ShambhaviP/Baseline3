@@ -1,11 +1,10 @@
 package com.tw.baseline;
 
-import junit.framework.Assert;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class SalesTaxTest {
+public class BasicSalesTaxTest {
 
     @Test
     public void shouldBeZeroIfTheItemPurchasedIsAFood() {
