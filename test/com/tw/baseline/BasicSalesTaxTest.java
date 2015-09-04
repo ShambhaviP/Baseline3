@@ -26,4 +26,11 @@ public class BasicSalesTaxTest {
 
         assertEquals(0.0, item.basicSalesTax(), 0.0001);
     }
+
+    @Test
+    public void shouldBeTenPercentOfThePriceForAnItemOtherThanABookOrAMedicalProductOrAFoodStuff() {
+        Item item = new Item("Music CD", 3.99);
+
+        assertEquals(0.399, item.basicSalesTax(), 0.0001);
+    }
 }
