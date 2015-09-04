@@ -12,6 +12,9 @@ public class Item {
     }
 
     public double basicSalesTax() {
-        return 0;
+        if(itemName.equalsIgnoreCase("chocolate"))
+            return 0.0;
+        else
+            return 0.1 * itemPrice;
     }
 }

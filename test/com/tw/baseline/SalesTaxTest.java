@@ -12,4 +12,5 @@ public class SalesTaxTest {
 
         assertEquals(0.0, item.basicSalesTax(), 0.0001);
     }
+
 }
