@@ -27,6 +27,11 @@ public class Item {
     }
 
     public double importDutyApplicable() {
+        if(itemName.contains("imported")) {
+            return 0.05 * itemPrice;
+        }
+        else {
         return 0.0;
+        }
     }
 }
